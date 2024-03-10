@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.app.entity.Employee;
 import com.app.respository.EmployeeRepository;
-import com.app.service.IEmployee;
+import com.app.service.IEmployeeService;
 
 @Service
-public class EmployeeServiceImpl implements IEmployee{
+public class EmployeeServiceImpl implements IEmployeeService{
 	
 	@Autowired
 	private EmployeeRepository empRepo;

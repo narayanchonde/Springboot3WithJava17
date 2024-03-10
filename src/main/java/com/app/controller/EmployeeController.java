@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.app.entity.Employee;
-import com.app.service.IEmployee;
+import com.app.service.IEmployeeService;
 
 @RestController
 @RequestMapping("/api/employee")
 public class EmployeeController {
 	
 	@Autowired 
-	private  IEmployee service;
+	private  IEmployeeService service;
 
 	//1 Employee  details saving into database operation 
 	@PostMapping("/create")

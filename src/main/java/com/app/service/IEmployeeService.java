@@ -2,7 +2,7 @@ package com.app.service;
 
 import com.app.entity.Employee;
 
-public interface IEmployee {
+public interface IEmployeeService {
 
 	Integer createEmployee(Employee employee);
 
